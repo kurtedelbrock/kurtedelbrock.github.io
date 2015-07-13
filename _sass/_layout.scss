@@ -163,6 +163,12 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
 }
 
 .page-heading {
@@ -210,11 +216,19 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
+    h1 {
+        font-size: 40px;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 36px;
+        }
+    }
+
+    h2 {
+        font-size: 22px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
         }
     }
 
